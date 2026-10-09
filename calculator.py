@@ -1,4 +1,5 @@
 def calculator(a, b, op):
+    """выполняет вычисления по запросу"""
     if op == '+':
         return a + b
     elif op == '-':
